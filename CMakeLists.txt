@@ -57,7 +57,7 @@ target_include_directories(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
   PRIVATE
     Ceres::ceres
-  INTERFACE
+  # PUBLIC
     Eigen3::Eigen
     Sophus::Sophus
 )       
